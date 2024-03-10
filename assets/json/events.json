@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "title": "Damefrokosten 2024",
+        "description": "Damefrokost 2024 - Hygge, samvær og FED fest, med Nonstop musik ved Tip Top Partyband med DJ.",
+        "location": "Sydjysk Sparekasse Skansen",
+        "image": "/assets/img/damefrokost.png"
+    },
+    {
+        "id": 2,
+        "title": "Damefrokosten 2022",
+        "description": "Damefrokost 2022 - Hygge, samvær og FED fest, med Nonstop musik ved Tip Top Partyband med DJ.",
+        "location": "Sydjysk Sparekasse Skansen",
+        "image": "/assets/img/damefrokost.png"
+    },
+    {
+        "id": 3,
+        "title": "Damefrokosten 2025",
+        "description": "Damefrokost 2025 - Hygge, samvær og FED fest, med Nonstop musik ved Tip Top Partyband med DJ.",
+        "location": "Sydjysk Sparekasse Skansen",
+        "image": "/assets/img/damefrokost.png"
+    }
+]

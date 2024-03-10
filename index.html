@@ -1,1 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
+        <!---------------------- UNICONS ---------------------->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+        
+        <!---------------------- CSS ---------------------->
+        <link rel="stylesheet" href="/assets/css/styles.css">
+        
+        <title>Ticket-System</title>
+    </head>
+    <body>
+        <!---------------------- HEADER ---------------------->
+        <header class="header" id="home">
+            <nav class="container">
+                <a href="#home" class="nav__logo">
+                    <img src="/assets/img/nav_logo.png" alt="">
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class="uil uil-estate nav__icon"></i> Forside
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#events" class="nav__link">
+                                <i class="uil uil-map-marker"></i> Begivenheder
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#events" class="nav__link">
+                                <i class="uil uil-phone"></i> Kontakt
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <i class="uil uil-search-alt"></i>
+                            <input type="text" class="nav__input"> 
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="cart">
+                <button class="cart__button">
+                    <i class="uil uil-shopping-cart"></i>
+                </button>
+            </div>
+        </header>
+        
+        <!---------------------- MAIN ---------------------->
+        <main class="main">
+            <section class="events__container container grid">
+                <div class="events__content grid" id="events">
+                    <button class="filter__button">
+                        Filter
+                    </button>
+                    <div class="listEvents"></div>
+                </div>
+            </section>
+        </main>
+
+
+        <script src="/assets/js/main.js"></script>
+    </body>
+</html>
